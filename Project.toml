@@ -1,9 +1,13 @@
 name = "KautzBasis"
 uuid = "63ecade0-925f-4ed2-a1f4-5f2fd7641a80"
-authors = ["Vasilii Vadimov"]
 version = "1.0.0-DEV"
+authors = ["Vasilii Vadimov"]
+
+[deps]
+Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
 
 [compat]
+Polynomials = "4.1.0"
 julia = "1.6.7"
 
 [extras]
